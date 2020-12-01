@@ -1,0 +1,69 @@
+body {
+    background-color: #2f3c46;
+    margin: 0px;
+}
+
+div.page {
+    width: 100%;
+    height: 620px;
+    margin: 0px;
+}
+
+div.page img {
+    float: left;
+}
+
+div.content {
+    float: left;
+    height: 620px;
+    width: 600px;
+    margin: 0px 100px;
+    position: relative;
+}
+
+
+div.content img {
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+
+div.intro {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+}
+
+div.container {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    width: 450px;
+    height: 300px;
+    padding: 12px 20px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #cc624f;
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+      
